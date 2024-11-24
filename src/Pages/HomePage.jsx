@@ -1,7 +1,7 @@
 import React from "react";
 import { Link } from "react-router-dom";
 
-import HomepageImage from "../assets/Image/HomePage1.jpg"
+import HomepageImage from "../assets/Image/homePageMainImage.png"
 import HomeLayout from "../Layouts/HomeLayout.jsx";
 
 const HomePage = ()=>{

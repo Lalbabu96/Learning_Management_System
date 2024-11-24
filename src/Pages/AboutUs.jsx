@@ -1,6 +1,9 @@
-import AboutMainImage from "../assets/Image/AboutMainImage.jpg"
-import apj from "../assets/Image/apj.jpg";
-import BillGates from "../assets/Image/billGates.jpg"
+import AboutMainImage from "../assets/Image/aboutMainImage.png"
+import apj from "../assets/Image/apj.png";
+import BillGates from "../assets/Image/billGates.png";
+import Einstein from "../assets/Image/einstein.png";
+import NelsonMandela from "../assets/Image/nelsonMandela.png";
+import Stevejobs from "../assets/Image/steveJobs.png";
 import HomeLayout from "../Layouts/HomeLayout";
 function AboutUS(){
     return (
@@ -27,7 +30,7 @@ function AboutUS(){
                     </div>
                  </div>
                   
-                <div className="carousel w-full">
+                <div className="carousel w-1/2 my-16 m-auto">
                     <div id="slide1" className="carousel-item relative w-full">
                         <img
                         src={apj}
@@ -48,7 +51,7 @@ function AboutUS(){
                     </div>
                     <div id="slide3" className="carousel-item relative w-full">
                         <img
-                        src="https://img.daisyui.com/images/stock/photo-1414694762283-acccc27bca85.webp"
+                        src={Einstein}
                         className="w-full" />
                         <div className="absolute left-5 right-5 top-1/2 flex -translate-y-1/2 transform justify-between">
                         <a href="#slide2" className="btn btn-circle">❮</a>
@@ -57,11 +60,20 @@ function AboutUS(){
                     </div>
                     <div id="slide4" className="carousel-item relative w-full">
                         <img
-                        src="https://img.daisyui.com/images/stock/photo-1665553365602-b2fb8e5d1707.webp"
+                        src={Stevejobs}
                         className="w-full" />
                         <div className="absolute left-5 right-5 top-1/2 flex -translate-y-1/2 transform justify-between">
                         <a href="#slide3" className="btn btn-circle">❮</a>
                         <a href="#slide1" className="btn btn-circle">❯</a>
+                        </div>
+                    </div>
+                    <div id="slide5" className="carousel-item relative w-full">
+                        <img
+                        src={NelsonMandela}
+                        className="w-full" />
+                        <div className="absolute left-5 right-5 top-1/2 flex -translate-y-1/2 transform justify-between">
+                        <a href="#slide3" className="btn btn-circle">❮</a>
+                        <a href="#slide2" className="btn btn-circle">❯</a>
                         </div>
                     </div>
                 </div>
